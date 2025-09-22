@@ -41,7 +41,7 @@ mapping = {
 }
 
 
-schedule = pd.read_csv("nfl_schedule_2025.csv")
+schedule = pd.read_csv("nfl_schedule_2024.csv")
 
 # Create lookup: (team, week) -> True if home, False if away
 is_home_lookup = {}
@@ -62,7 +62,7 @@ for _, row in schedule.iterrows():
     matchup_lookup[(home, week)] = f"{away} @ {home}"
     matchup_lookup[(away, week)] = f"{away} @ {home}"
 
-df = pd.read_csv('team_week_win_prob.csv').set_index('Team').fillna(0)
+df = pd.read_csv('team_week_win_prob_2024.csv').set_index('Team').fillna(0)
 print(df)
 
 # Parameters
@@ -98,17 +98,13 @@ for t in teams:
 objective_terms = []
 for (t, w), var in x.items():
     base_prob = df.loc[t, w] 
-    if is_home(t, w):
-        objective_terms.append((base_prob + 0.01) * var)  # slight bonus for home teams
-    else:
-        objective_terms.append(base_prob * var)
+    # if is_home(t, w):
+    #     objective_terms.append((base_prob + 0.01) * var)  # slight bonus for home teams
+    # else:
+    objective_terms.append(base_prob * var)
     
 prob_lp += pulp.lpSum(objective_terms)
-
-# hard-code existing selections
-prob_lp += x[('DEN', 'Week 1')] == 1 # picked broncos in week 1
-prob_lp += x[('BAL', 'Week 2')] == 1 # picked ravens in week 2
-prob_lp += x[('SEA', 'Week 3')] == 1 # picked seahawks in week 3
+prob_lp += x[('CIN', 'Week 1')] != 1
 
 # Solve
 solver = pulp.PULP_CBC_CMD(msg=False)  # change msg=True to get solver log
@@ -116,24 +112,33 @@ prob_lp.solve(solver)
 
 # Collect solution
 picks = []
-total = 0.0
+total = []
 for (t, w), var in x.items():
     if pulp.value(var) == 1:
         matchup = matchup_lookup.get((t, w), "Unknown")
         picks.append((w, t, float(df.loc[t, w]), matchup))
-        total += float(df.loc[t, w])
+        total.append(float(df.loc[t, w]))
 
 
 # Sort picks by week order
-# to keep week ordering consistent, ensure weeks are in original df.columns order
 week_order = {w: i for i, w in enumerate(weeks)}
 picks.sort(key=lambda r: week_order[r[0]])
 
-print("\nSelected picks (Week, Team, Probability, Matchup):")
-for w, t, v, m in picks:
-    print(f"{w:10s} | {t:3s} | {v:.6f} | {m}")
+# Create a DataFrame from the solution
+solution_dict = {
+    'Week': [p[0] for p in picks],
+    'Team': [p[1] for p in picks],
+    'Probability': [p[2] for p in picks],
+    'Matchup': [p[3] for p in picks]
+}
+df_solution = pd.DataFrame(solution_dict)
 
+# Export the DataFrame to a CSV file
+output_filename = 'survivor_picks_2024.csv'
+df_solution.to_csv(output_filename, index=False)
 
-# If you want exactly one team per week regardless (even if below threshold),
-# change the week constraint from '<= 1' to '== 1' and remove the threshold-based variable creation.
-# But per your requirement we do NOT select any prob < {threshold}.
+print(f"The solver output has been successfully converted into a DataFrame and exported to '{output_filename}'.")
+print("\nDataFrame Preview:")
+print(df_solution)
+
+print(f"\nTotal survival probability: {np.prod(total)*100:.3f}%")

@@ -40,9 +40,9 @@ mapping = {
     'Washington Commanders': 'WAS',
 }
 
-df = pd.read_csv('nfl_schedule_2025.csv')
+df = pd.read_csv('nfl_schedule_2024.csv')
 print(df.head(40))
-ratings_df = pd.read_csv('ratings.csv').set_index('Team').to_dict(orient='index')
+ratings_df = pd.read_csv('ratings_2024.csv').set_index('Team').to_dict(orient='index')
 
 def compute_win_prob(home_rating, away_rating, hfa=0.25):
     delta = (home_rating - away_rating) + hfa
@@ -66,7 +66,7 @@ for week in df['Week'].unique():
         team_week_wp = pd.concat([team_week_wp, pd.DataFrame({'Team': [row['Away_Abbrev']], f'Week {week}': [row['Win_Prob_Away']]})], axis=0)
 team_week_wp = team_week_wp.groupby('Team').max().reset_index()
 team_week_wp = team_week_wp.set_index('Team').sort_index()
-team_week_wp.to_csv('team_week_win_prob.csv')
+team_week_wp.to_csv('team_week_win_prob_2024.csv')
 
 
 
@@ -86,7 +86,7 @@ team_week_wp.to_csv('team_week_win_prob.csv')
 
 # table.to_csv('cheatsheet.csv')
 
-def generate_team_week_figure(team_week_csv='team_week_win_prob.csv', schedule_csv='nfl_schedule_2025.csv', out_png='team_week_grid.png'):
+def generate_team_week_figure(team_week_csv='team_week_win_prob_2024.csv', schedule_csv='nfl_schedule_2024.csv', out_png='team_week_grid_2024.png'):
     """Generate a matplotlib figure (teams x weeks) where each cell shows the matchup (AWAY@HOME)
     and that team's win probability. Cells are color-coded by probability and saved to a PNG.
     Uses Commissioner if available, otherwise falls back to DejaVu Sans.
