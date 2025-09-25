@@ -1,0 +1,273 @@
+Week,Day,Date,Time,Team1,H/A,Team2,Home,Away
+1,Thu,2024-09-05,8:20PM,Kansas City Chiefs,,Baltimore Ravens,Kansas City Chiefs,Baltimore Ravens
+1,Fri,2024-09-06,8:15PM,Philadelphia Eagles,,Green Bay Packers,Philadelphia Eagles,Green Bay Packers
+1,Sun,2024-09-08,1:00PM,Pittsburgh Steelers,@,Atlanta Falcons,Atlanta Falcons,Pittsburgh Steelers
+1,Sun,2024-09-08,1:00PM,Buffalo Bills,,Arizona Cardinals,Buffalo Bills,Arizona Cardinals
+1,Sun,2024-09-08,1:00PM,New Orleans Saints,,Carolina Panthers,New Orleans Saints,Carolina Panthers
+1,Sun,2024-09-08,1:00PM,Chicago Bears,,Tennessee Titans,Chicago Bears,Tennessee Titans
+1,Sun,2024-09-08,1:00PM,New England Patriots,@,Cincinnati Bengals,Cincinnati Bengals,New England Patriots
+1,Sun,2024-09-08,1:00PM,Houston Texans,@,Indianapolis Colts,Indianapolis Colts,Houston Texans
+1,Sun,2024-09-08,1:00PM,Miami Dolphins,,Jacksonville Jaguars,Miami Dolphins,Jacksonville Jaguars
+1,Sun,2024-09-08,1:00PM,Minnesota Vikings,@,New York Giants,New York Giants,Minnesota Vikings
+1,Sun,2024-09-08,4:05PM,Seattle Seahawks,,Denver Broncos,Seattle Seahawks,Denver Broncos
+1,Sun,2024-09-08,4:05PM,Los Angeles Chargers,,Las Vegas Raiders,Los Angeles Chargers,Las Vegas Raiders
+1,Sun,2024-09-08,4:25PM,Dallas Cowboys,@,Cleveland Browns,Cleveland Browns,Dallas Cowboys
+1,Sun,2024-09-08,4:25PM,Tampa Bay Buccaneers,,Washington Commanders,Tampa Bay Buccaneers,Washington Commanders
+1,Sun,2024-09-08,8:20PM,Detroit Lions,,Los Angeles Rams,Detroit Lions,Los Angeles Rams
+1,Mon,2024-09-09,8:15PM,San Francisco 49ers,,New York Jets,San Francisco 49ers,New York Jets
+2,Thu,2024-09-12,8:15PM,Buffalo Bills,@,Miami Dolphins,Miami Dolphins,Buffalo Bills
+2,Sun,2024-09-15,1:00PM,Los Angeles Chargers,@,Carolina Panthers,Carolina Panthers,Los Angeles Chargers
+2,Sun,2024-09-15,1:00PM,Cleveland Browns,@,Jacksonville Jaguars,Jacksonville Jaguars,Cleveland Browns
+2,Sun,2024-09-15,1:00PM,Green Bay Packers,,Indianapolis Colts,Green Bay Packers,Indianapolis Colts
+2,Sun,2024-09-15,1:00PM,New Orleans Saints,@,Dallas Cowboys,Dallas Cowboys,New Orleans Saints
+2,Sun,2024-09-15,1:00PM,Tampa Bay Buccaneers,@,Detroit Lions,Detroit Lions,Tampa Bay Buccaneers
+2,Sun,2024-09-15,1:00PM,Minnesota Vikings,,San Francisco 49ers,Minnesota Vikings,San Francisco 49ers
+2,Sun,2024-09-15,1:00PM,Seattle Seahawks,@,New England Patriots,New England Patriots,Seattle Seahawks
+2,Sun,2024-09-15,1:00PM,Washington Commanders,,New York Giants,Washington Commanders,New York Giants
+2,Sun,2024-09-15,1:00PM,New York Jets,@,Tennessee Titans,Tennessee Titans,New York Jets
+2,Sun,2024-09-15,1:00PM,Las Vegas Raiders,@,Baltimore Ravens,Baltimore Ravens,Las Vegas Raiders
+2,Sun,2024-09-15,4:05PM,Arizona Cardinals,,Los Angeles Rams,Arizona Cardinals,Los Angeles Rams
+2,Sun,2024-09-15,4:25PM,Kansas City Chiefs,,Cincinnati Bengals,Kansas City Chiefs,Cincinnati Bengals
+2,Sun,2024-09-15,4:25PM,Pittsburgh Steelers,@,Denver Broncos,Denver Broncos,Pittsburgh Steelers
+2,Sun,2024-09-15,8:20PM,Houston Texans,,Chicago Bears,Houston Texans,Chicago Bears
+2,Mon,2024-09-16,8:15PM,Atlanta Falcons,@,Philadelphia Eagles,Philadelphia Eagles,Atlanta Falcons
+3,Thu,2024-09-19,8:15PM,New York Jets,,New England Patriots,New York Jets,New England Patriots
+3,Sun,2024-09-22,1:00PM,Indianapolis Colts,,Chicago Bears,Indianapolis Colts,Chicago Bears
+3,Sun,2024-09-22,1:00PM,New York Giants,@,Cleveland Browns,Cleveland Browns,New York Giants
+3,Sun,2024-09-22,1:00PM,Denver Broncos,@,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Denver Broncos
+3,Sun,2024-09-22,1:00PM,Green Bay Packers,@,Tennessee Titans,Tennessee Titans,Green Bay Packers
+3,Sun,2024-09-22,1:00PM,Minnesota Vikings,,Houston Texans,Minnesota Vikings,Houston Texans
+3,Sun,2024-09-22,1:00PM,Philadelphia Eagles,@,New Orleans Saints,New Orleans Saints,Philadelphia Eagles
+3,Sun,2024-09-22,1:00PM,Pittsburgh Steelers,,Los Angeles Chargers,Pittsburgh Steelers,Los Angeles Chargers
+3,Sun,2024-09-22,4:05PM,Carolina Panthers,@,Las Vegas Raiders,Las Vegas Raiders,Carolina Panthers
+3,Sun,2024-09-22,4:05PM,Seattle Seahawks,,Miami Dolphins,Seattle Seahawks,Miami Dolphins
+3,Sun,2024-09-22,4:25PM,Detroit Lions,@,Arizona Cardinals,Arizona Cardinals,Detroit Lions
+3,Sun,2024-09-22,4:25PM,Baltimore Ravens,@,Dallas Cowboys,Dallas Cowboys,Baltimore Ravens
+3,Sun,2024-09-22,4:25PM,Los Angeles Rams,,San Francisco 49ers,Los Angeles Rams,San Francisco 49ers
+3,Sun,2024-09-22,8:20PM,Kansas City Chiefs,@,Atlanta Falcons,Atlanta Falcons,Kansas City Chiefs
+3,Mon,2024-09-23,7:30PM,Buffalo Bills,,Jacksonville Jaguars,Buffalo Bills,Jacksonville Jaguars
+3,Mon,2024-09-23,8:15PM,Washington Commanders,@,Cincinnati Bengals,Cincinnati Bengals,Washington Commanders
+4,Thu,2024-09-26,8:15PM,Dallas Cowboys,@,New York Giants,New York Giants,Dallas Cowboys
+4,Sun,2024-09-29,1:00PM,Atlanta Falcons,,New Orleans Saints,Atlanta Falcons,New Orleans Saints
+4,Sun,2024-09-29,1:00PM,Cincinnati Bengals,@,Carolina Panthers,Carolina Panthers,Cincinnati Bengals
+4,Sun,2024-09-29,1:00PM,Chicago Bears,,Los Angeles Rams,Chicago Bears,Los Angeles Rams
+4,Sun,2024-09-29,1:00PM,Indianapolis Colts,,Pittsburgh Steelers,Indianapolis Colts,Pittsburgh Steelers
+4,Sun,2024-09-29,1:00PM,Denver Broncos,@,New York Jets,New York Jets,Denver Broncos
+4,Sun,2024-09-29,1:00PM,Minnesota Vikings,@,Green Bay Packers,Green Bay Packers,Minnesota Vikings
+4,Sun,2024-09-29,1:00PM,Houston Texans,,Jacksonville Jaguars,Houston Texans,Jacksonville Jaguars
+4,Sun,2024-09-29,1:00PM,Tampa Bay Buccaneers,,Philadelphia Eagles,Tampa Bay Buccaneers,Philadelphia Eagles
+4,Sun,2024-09-29,4:05PM,Washington Commanders,@,Arizona Cardinals,Arizona Cardinals,Washington Commanders
+4,Sun,2024-09-29,4:05PM,San Francisco 49ers,,New England Patriots,San Francisco 49ers,New England Patriots
+4,Sun,2024-09-29,4:25PM,Las Vegas Raiders,,Cleveland Browns,Las Vegas Raiders,Cleveland Browns
+4,Sun,2024-09-29,4:25PM,Kansas City Chiefs,@,Los Angeles Chargers,Los Angeles Chargers,Kansas City Chiefs
+4,Sun,2024-09-29,8:20PM,Baltimore Ravens,,Buffalo Bills,Baltimore Ravens,Buffalo Bills
+4,Mon,2024-09-30,7:30PM,Tennessee Titans,@,Miami Dolphins,Miami Dolphins,Tennessee Titans
+4,Mon,2024-09-30,8:15PM,Detroit Lions,,Seattle Seahawks,Detroit Lions,Seattle Seahawks
+5,Thu,2024-10-03,8:15PM,Atlanta Falcons,,Tampa Bay Buccaneers,Atlanta Falcons,Tampa Bay Buccaneers
+5,Sun,2024-10-06,9:30AM,Minnesota Vikings,,New York Jets,Minnesota Vikings,New York Jets
+5,Sun,2024-10-06,1:00PM,Houston Texans,,Buffalo Bills,Houston Texans,Buffalo Bills
+5,Sun,2024-10-06,1:00PM,Chicago Bears,,Carolina Panthers,Chicago Bears,Carolina Panthers
+5,Sun,2024-10-06,1:00PM,Baltimore Ravens,@,Cincinnati Bengals,Cincinnati Bengals,Baltimore Ravens
+5,Sun,2024-10-06,1:00PM,Washington Commanders,,Cleveland Browns,Washington Commanders,Cleveland Browns
+5,Sun,2024-10-06,1:00PM,Jacksonville Jaguars,,Indianapolis Colts,Jacksonville Jaguars,Indianapolis Colts
+5,Sun,2024-10-06,1:00PM,Miami Dolphins,@,New England Patriots,New England Patriots,Miami Dolphins
+5,Sun,2024-10-06,4:05PM,Arizona Cardinals,@,San Francisco 49ers,San Francisco 49ers,Arizona Cardinals
+5,Sun,2024-10-06,4:05PM,Denver Broncos,,Las Vegas Raiders,Denver Broncos,Las Vegas Raiders
+5,Sun,2024-10-06,4:25PM,Green Bay Packers,@,Los Angeles Rams,Los Angeles Rams,Green Bay Packers
+5,Sun,2024-10-06,4:25PM,New York Giants,@,Seattle Seahawks,Seattle Seahawks,New York Giants
+5,Sun,2024-10-06,8:20PM,Dallas Cowboys,@,Pittsburgh Steelers,Pittsburgh Steelers,Dallas Cowboys
+5,Mon,2024-10-07,8:15PM,Kansas City Chiefs,,New Orleans Saints,Kansas City Chiefs,New Orleans Saints
+6,Thu,2024-10-10,8:15PM,San Francisco 49ers,@,Seattle Seahawks,Seattle Seahawks,San Francisco 49ers
+6,Sun,2024-10-13,9:30AM,Chicago Bears,,Jacksonville Jaguars,Chicago Bears,Jacksonville Jaguars
+6,Sun,2024-10-13,1:00PM,Philadelphia Eagles,,Cleveland Browns,Philadelphia Eagles,Cleveland Browns
+6,Sun,2024-10-13,1:00PM,Indianapolis Colts,@,Tennessee Titans,Tennessee Titans,Indianapolis Colts
+6,Sun,2024-10-13,1:00PM,Green Bay Packers,,Arizona Cardinals,Green Bay Packers,Arizona Cardinals
+6,Sun,2024-10-13,1:00PM,Houston Texans,@,New England Patriots,New England Patriots,Houston Texans
+6,Sun,2024-10-13,1:00PM,Tampa Bay Buccaneers,@,New Orleans Saints,New Orleans Saints,Tampa Bay Buccaneers
+6,Sun,2024-10-13,1:00PM,Baltimore Ravens,,Washington Commanders,Baltimore Ravens,Washington Commanders
+6,Sun,2024-10-13,4:05PM,Los Angeles Chargers,@,Denver Broncos,Denver Broncos,Los Angeles Chargers
+6,Sun,2024-10-13,4:05PM,Pittsburgh Steelers,@,Las Vegas Raiders,Las Vegas Raiders,Pittsburgh Steelers
+6,Sun,2024-10-13,4:25PM,Atlanta Falcons,@,Carolina Panthers,Carolina Panthers,Atlanta Falcons
+6,Sun,2024-10-13,4:25PM,Detroit Lions,@,Dallas Cowboys,Dallas Cowboys,Detroit Lions
+6,Sun,2024-10-13,8:20PM,Cincinnati Bengals,@,New York Giants,New York Giants,Cincinnati Bengals
+6,Mon,2024-10-14,8:15PM,Buffalo Bills,@,New York Jets,New York Jets,Buffalo Bills
+7,Thu,2024-10-17,8:15PM,Denver Broncos,@,New Orleans Saints,New Orleans Saints,Denver Broncos
+7,Sun,2024-10-20,9:30AM,Jacksonville Jaguars,,New England Patriots,Jacksonville Jaguars,New England Patriots
+7,Sun,2024-10-20,1:00PM,Detroit Lions,@,Minnesota Vikings,Minnesota Vikings,Detroit Lions
+7,Sun,2024-10-20,1:00PM,Seattle Seahawks,@,Atlanta Falcons,Atlanta Falcons,Seattle Seahawks
+7,Sun,2024-10-20,1:00PM,Buffalo Bills,,Tennessee Titans,Buffalo Bills,Tennessee Titans
+7,Sun,2024-10-20,1:00PM,Cincinnati Bengals,@,Cleveland Browns,Cleveland Browns,Cincinnati Bengals
+7,Sun,2024-10-20,1:00PM,Indianapolis Colts,,Miami Dolphins,Indianapolis Colts,Miami Dolphins
+7,Sun,2024-10-20,1:00PM,Green Bay Packers,,Houston Texans,Green Bay Packers,Houston Texans
+7,Sun,2024-10-20,1:00PM,Philadelphia Eagles,@,New York Giants,New York Giants,Philadelphia Eagles
+7,Sun,2024-10-20,4:05PM,Washington Commanders,,Carolina Panthers,Washington Commanders,Carolina Panthers
+7,Sun,2024-10-20,4:05PM,Los Angeles Rams,,Las Vegas Raiders,Los Angeles Rams,Las Vegas Raiders
+7,Sun,2024-10-20,4:25PM,Kansas City Chiefs,@,San Francisco 49ers,San Francisco 49ers,Kansas City Chiefs
+7,Sun,2024-10-20,8:20PM,Pittsburgh Steelers,,New York Jets,Pittsburgh Steelers,New York Jets
+7,Mon,2024-10-21,8:15PM,Baltimore Ravens,@,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Baltimore Ravens
+7,Mon,2024-10-21,9:00PM,Arizona Cardinals,,Los Angeles Chargers,Arizona Cardinals,Los Angeles Chargers
+8,Thu,2024-10-24,8:15PM,Los Angeles Rams,,Minnesota Vikings,Los Angeles Rams,Minnesota Vikings
+8,Sun,2024-10-27,1:00PM,Detroit Lions,,Tennessee Titans,Detroit Lions,Tennessee Titans
+8,Sun,2024-10-27,1:00PM,Atlanta Falcons,@,Tampa Bay Buccaneers,Tampa Bay Buccaneers,Atlanta Falcons
+8,Sun,2024-10-27,1:00PM,Philadelphia Eagles,@,Cincinnati Bengals,Cincinnati Bengals,Philadelphia Eagles
+8,Sun,2024-10-27,1:00PM,Cleveland Browns,,Baltimore Ravens,Cleveland Browns,Baltimore Ravens
+8,Sun,2024-10-27,1:00PM,Houston Texans,,Indianapolis Colts,Houston Texans,Indianapolis Colts
+8,Sun,2024-10-27,1:00PM,Arizona Cardinals,@,Miami Dolphins,Miami Dolphins,Arizona Cardinals
+8,Sun,2024-10-27,1:00PM,Green Bay Packers,@,Jacksonville Jaguars,Jacksonville Jaguars,Green Bay Packers
+8,Sun,2024-10-27,1:00PM,New England Patriots,,New York Jets,New England Patriots,New York Jets
+8,Sun,2024-10-27,4:05PM,Buffalo Bills,@,Seattle Seahawks,Seattle Seahawks,Buffalo Bills
+8,Sun,2024-10-27,4:05PM,Los Angeles Chargers,,New Orleans Saints,Los Angeles Chargers,New Orleans Saints
+8,Sun,2024-10-27,4:25PM,Washington Commanders,,Chicago Bears,Washington Commanders,Chicago Bears
+8,Sun,2024-10-27,4:25PM,Kansas City Chiefs,@,Las Vegas Raiders,Las Vegas Raiders,Kansas City Chiefs
+8,Sun,2024-10-27,4:25PM,Denver Broncos,,Carolina Panthers,Denver Broncos,Carolina Panthers
+8,Sun,2024-10-27,8:20PM,San Francisco 49ers,,Dallas Cowboys,San Francisco 49ers,Dallas Cowboys
+8,Mon,2024-10-28,8:15PM,Pittsburgh Steelers,,New York Giants,Pittsburgh Steelers,New York Giants
+9,Thu,2024-10-31,8:15PM,New York Jets,,Houston Texans,New York Jets,Houston Texans
+9,Sun,2024-11-03,1:00PM,Atlanta Falcons,,Dallas Cowboys,Atlanta Falcons,Dallas Cowboys
+9,Sun,2024-11-03,1:00PM,Buffalo Bills,,Miami Dolphins,Buffalo Bills,Miami Dolphins
+9,Sun,2024-11-03,1:00PM,Carolina Panthers,,New Orleans Saints,Carolina Panthers,New Orleans Saints
+9,Sun,2024-11-03,1:00PM,Cincinnati Bengals,,Las Vegas Raiders,Cincinnati Bengals,Las Vegas Raiders
+9,Sun,2024-11-03,1:00PM,Los Angeles Chargers,@,Cleveland Browns,Cleveland Browns,Los Angeles Chargers
+9,Sun,2024-11-03,1:00PM,Baltimore Ravens,,Denver Broncos,Baltimore Ravens,Denver Broncos
+9,Sun,2024-11-03,1:00PM,Tennessee Titans,,New England Patriots,Tennessee Titans,New England Patriots
+9,Sun,2024-11-03,1:00PM,Washington Commanders,@,New York Giants,New York Giants,Washington Commanders
+9,Sun,2024-11-03,4:05PM,Arizona Cardinals,,Chicago Bears,Arizona Cardinals,Chicago Bears
+9,Sun,2024-11-03,4:05PM,Philadelphia Eagles,,Jacksonville Jaguars,Philadelphia Eagles,Jacksonville Jaguars
+9,Sun,2024-11-03,4:25PM,Detroit Lions,@,Green Bay Packers,Green Bay Packers,Detroit Lions
+9,Sun,2024-11-03,4:25PM,Los Angeles Rams,@,Seattle Seahawks,Seattle Seahawks,Los Angeles Rams
+9,Sun,2024-11-03,8:20PM,Minnesota Vikings,,Indianapolis Colts,Minnesota Vikings,Indianapolis Colts
+9,Mon,2024-11-04,8:15PM,Kansas City Chiefs,,Tampa Bay Buccaneers,Kansas City Chiefs,Tampa Bay Buccaneers
+10,Thu,2024-11-07,8:15PM,Baltimore Ravens,,Cincinnati Bengals,Baltimore Ravens,Cincinnati Bengals
+10,Sun,2024-11-10,9:30AM,Carolina Panthers,,New York Giants,Carolina Panthers,New York Giants
+10,Sun,2024-11-10,1:00PM,New England Patriots,@,Chicago Bears,Chicago Bears,New England Patriots
+10,Sun,2024-11-10,1:00PM,Pittsburgh Steelers,@,Washington Commanders,Washington Commanders,Pittsburgh Steelers
+10,Sun,2024-11-10,1:00PM,San Francisco 49ers,@,Tampa Bay Buccaneers,Tampa Bay Buccaneers,San Francisco 49ers
+10,Sun,2024-11-10,1:00PM,New Orleans Saints,,Atlanta Falcons,New Orleans Saints,Atlanta Falcons
+10,Sun,2024-11-10,1:00PM,Buffalo Bills,@,Indianapolis Colts,Indianapolis Colts,Buffalo Bills
+10,Sun,2024-11-10,1:00PM,Kansas City Chiefs,,Denver Broncos,Kansas City Chiefs,Denver Broncos
+10,Sun,2024-11-10,1:00PM,Minnesota Vikings,@,Jacksonville Jaguars,Jacksonville Jaguars,Minnesota Vikings
+10,Sun,2024-11-10,4:05PM,Los Angeles Chargers,,Tennessee Titans,Los Angeles Chargers,Tennessee Titans
+10,Sun,2024-11-10,4:25PM,Philadelphia Eagles,@,Dallas Cowboys,Dallas Cowboys,Philadelphia Eagles
+10,Sun,2024-11-10,4:25PM,Arizona Cardinals,,New York Jets,Arizona Cardinals,New York Jets
+10,Sun,2024-11-10,8:20PM,Detroit Lions,@,Houston Texans,Houston Texans,Detroit Lions
+10,Mon,2024-11-11,8:15PM,Miami Dolphins,@,Los Angeles Rams,Los Angeles Rams,Miami Dolphins
+11,Thu,2024-11-14,8:15PM,Philadelphia Eagles,,Washington Commanders,Philadelphia Eagles,Washington Commanders
+11,Sun,2024-11-17,1:00PM,Green Bay Packers,@,Chicago Bears,Chicago Bears,Green Bay Packers
+11,Sun,2024-11-17,1:00PM,New Orleans Saints,,Cleveland Browns,New Orleans Saints,Cleveland Browns
+11,Sun,2024-11-17,1:00PM,Detroit Lions,,Jacksonville Jaguars,Detroit Lions,Jacksonville Jaguars
+11,Sun,2024-11-17,1:00PM,Miami Dolphins,,Las Vegas Raiders,Miami Dolphins,Las Vegas Raiders
+11,Sun,2024-11-17,1:00PM,Minnesota Vikings,@,Tennessee Titans,Tennessee Titans,Minnesota Vikings
+11,Sun,2024-11-17,1:00PM,Pittsburgh Steelers,,Baltimore Ravens,Pittsburgh Steelers,Baltimore Ravens
+11,Sun,2024-11-17,1:00PM,Indianapolis Colts,@,New York Jets,New York Jets,Indianapolis Colts
+11,Sun,2024-11-17,1:00PM,Los Angeles Rams,@,New England Patriots,New England Patriots,Los Angeles Rams
+11,Sun,2024-11-17,4:05PM,Seattle Seahawks,@,San Francisco 49ers,San Francisco 49ers,Seattle Seahawks
+11,Sun,2024-11-17,4:05PM,Denver Broncos,,Atlanta Falcons,Denver Broncos,Atlanta Falcons
+11,Sun,2024-11-17,4:25PM,Buffalo Bills,,Kansas City Chiefs,Buffalo Bills,Kansas City Chiefs
+11,Sun,2024-11-17,8:20PM,Los Angeles Chargers,,Cincinnati Bengals,Los Angeles Chargers,Cincinnati Bengals
+11,Mon,2024-11-18,8:15PM,Houston Texans,@,Dallas Cowboys,Dallas Cowboys,Houston Texans
+12,Thu,2024-11-21,8:15PM,Cleveland Browns,,Pittsburgh Steelers,Cleveland Browns,Pittsburgh Steelers
+12,Sun,2024-11-24,1:00PM,Kansas City Chiefs,@,Carolina Panthers,Carolina Panthers,Kansas City Chiefs
+12,Sun,2024-11-24,1:00PM,Minnesota Vikings,@,Chicago Bears,Chicago Bears,Minnesota Vikings
+12,Sun,2024-11-24,1:00PM,Dallas Cowboys,@,Washington Commanders,Washington Commanders,Dallas Cowboys
+12,Sun,2024-11-24,1:00PM,Miami Dolphins,,New England Patriots,Miami Dolphins,New England Patriots
+12,Sun,2024-11-24,1:00PM,Tampa Bay Buccaneers,@,New York Giants,New York Giants,Tampa Bay Buccaneers
+12,Sun,2024-11-24,1:00PM,Detroit Lions,@,Indianapolis Colts,Indianapolis Colts,Detroit Lions
+12,Sun,2024-11-24,1:00PM,Tennessee Titans,@,Houston Texans,Houston Texans,Tennessee Titans
+12,Sun,2024-11-24,4:05PM,Denver Broncos,@,Las Vegas Raiders,Las Vegas Raiders,Denver Broncos
+12,Sun,2024-11-24,4:25PM,Seattle Seahawks,,Arizona Cardinals,Seattle Seahawks,Arizona Cardinals
+12,Sun,2024-11-24,4:25PM,Green Bay Packers,,San Francisco 49ers,Green Bay Packers,San Francisco 49ers
+12,Sun,2024-11-24,8:20PM,Philadelphia Eagles,@,Los Angeles Rams,Los Angeles Rams,Philadelphia Eagles
+12,Mon,2024-11-25,8:15PM,Baltimore Ravens,@,Los Angeles Chargers,Los Angeles Chargers,Baltimore Ravens
+13,Thu,2024-11-28,12:30PM,Detroit Lions,,Chicago Bears,Detroit Lions,Chicago Bears
+13,Thu,2024-11-28,4:30PM,Dallas Cowboys,,New York Giants,Dallas Cowboys,New York Giants
+13,Thu,2024-11-28,8:20PM,Green Bay Packers,,Miami Dolphins,Green Bay Packers,Miami Dolphins
+13,Fri,2024-11-29,3:00PM,Kansas City Chiefs,,Las Vegas Raiders,Kansas City Chiefs,Las Vegas Raiders
+13,Sun,2024-12-01,1:00PM,Los Angeles Chargers,@,Atlanta Falcons,Atlanta Falcons,Los Angeles Chargers
+13,Sun,2024-12-01,1:00PM,Pittsburgh Steelers,@,Cincinnati Bengals,Cincinnati Bengals,Pittsburgh Steelers
+13,Sun,2024-12-01,1:00PM,Minnesota Vikings,,Arizona Cardinals,Minnesota Vikings,Arizona Cardinals
+13,Sun,2024-12-01,1:00PM,Seattle Seahawks,@,New York Jets,New York Jets,Seattle Seahawks
+13,Sun,2024-12-01,1:00PM,Washington Commanders,,Tennessee Titans,Washington Commanders,Tennessee Titans
+13,Sun,2024-12-01,1:00PM,Indianapolis Colts,@,New England Patriots,New England Patriots,Indianapolis Colts
+13,Sun,2024-12-01,1:00PM,Houston Texans,@,Jacksonville Jaguars,Jacksonville Jaguars,Houston Texans
+13,Sun,2024-12-01,4:05PM,Tampa Bay Buccaneers,@,Carolina Panthers,Carolina Panthers,Tampa Bay Buccaneers
+13,Sun,2024-12-01,4:05PM,Los Angeles Rams,@,New Orleans Saints,New Orleans Saints,Los Angeles Rams
+13,Sun,2024-12-01,4:25PM,Philadelphia Eagles,@,Baltimore Ravens,Baltimore Ravens,Philadelphia Eagles
+13,Sun,2024-12-01,8:20PM,Buffalo Bills,,San Francisco 49ers,Buffalo Bills,San Francisco 49ers
+13,Mon,2024-12-02,8:15PM,Denver Broncos,,Cleveland Browns,Denver Broncos,Cleveland Browns
+14,Thu,2024-12-05,8:15PM,Detroit Lions,,Green Bay Packers,Detroit Lions,Green Bay Packers
+14,Sun,2024-12-08,1:00PM,Minnesota Vikings,,Atlanta Falcons,Minnesota Vikings,Atlanta Falcons
+14,Sun,2024-12-08,1:00PM,Philadelphia Eagles,,Carolina Panthers,Philadelphia Eagles,Carolina Panthers
+14,Sun,2024-12-08,1:00PM,Pittsburgh Steelers,,Cleveland Browns,Pittsburgh Steelers,Cleveland Browns
+14,Sun,2024-12-08,1:00PM,Jacksonville Jaguars,@,Tennessee Titans,Tennessee Titans,Jacksonville Jaguars
+14,Sun,2024-12-08,1:00PM,Miami Dolphins,,New York Jets,Miami Dolphins,New York Jets
+14,Sun,2024-12-08,1:00PM,New Orleans Saints,@,New York Giants,New York Giants,New Orleans Saints
+14,Sun,2024-12-08,1:00PM,Tampa Bay Buccaneers,,Las Vegas Raiders,Tampa Bay Buccaneers,Las Vegas Raiders
+14,Sun,2024-12-08,4:05PM,Seattle Seahawks,@,Arizona Cardinals,Arizona Cardinals,Seattle Seahawks
+14,Sun,2024-12-08,4:25PM,Los Angeles Rams,,Buffalo Bills,Los Angeles Rams,Buffalo Bills
+14,Sun,2024-12-08,4:25PM,San Francisco 49ers,,Chicago Bears,San Francisco 49ers,Chicago Bears
+14,Sun,2024-12-08,8:20PM,Kansas City Chiefs,,Los Angeles Chargers,Kansas City Chiefs,Los Angeles Chargers
+14,Mon,2024-12-09,8:15PM,Cincinnati Bengals,@,Dallas Cowboys,Dallas Cowboys,Cincinnati Bengals
+15,Thu,2024-12-12,8:15PM,Los Angeles Rams,@,San Francisco 49ers,San Francisco 49ers,Los Angeles Rams
+15,Sun,2024-12-15,1:00PM,Dallas Cowboys,@,Carolina Panthers,Carolina Panthers,Dallas Cowboys
+15,Sun,2024-12-15,1:00PM,Cincinnati Bengals,@,Tennessee Titans,Tennessee Titans,Cincinnati Bengals
+15,Sun,2024-12-15,1:00PM,Kansas City Chiefs,@,Cleveland Browns,Cleveland Browns,Kansas City Chiefs
+15,Sun,2024-12-15,1:00PM,Houston Texans,,Miami Dolphins,Houston Texans,Miami Dolphins
+15,Sun,2024-12-15,1:00PM,New York Jets,@,Jacksonville Jaguars,Jacksonville Jaguars,New York Jets
+15,Sun,2024-12-15,1:00PM,Washington Commanders,@,New Orleans Saints,New Orleans Saints,Washington Commanders
+15,Sun,2024-12-15,1:00PM,Baltimore Ravens,@,New York Giants,New York Giants,Baltimore Ravens
+15,Sun,2024-12-15,4:25PM,Buffalo Bills,@,Detroit Lions,Detroit Lions,Buffalo Bills
+15,Sun,2024-12-15,4:25PM,Denver Broncos,,Indianapolis Colts,Denver Broncos,Indianapolis Colts
+15,Sun,2024-12-15,4:25PM,Arizona Cardinals,,New England Patriots,Arizona Cardinals,New England Patriots
+15,Sun,2024-12-15,4:25PM,Philadelphia Eagles,,Pittsburgh Steelers,Philadelphia Eagles,Pittsburgh Steelers
+15,Sun,2024-12-15,4:25PM,Tampa Bay Buccaneers,@,Los Angeles Chargers,Los Angeles Chargers,Tampa Bay Buccaneers
+15,Sun,2024-12-15,8:20PM,Green Bay Packers,@,Seattle Seahawks,Seattle Seahawks,Green Bay Packers
+15,Mon,2024-12-16,8:00PM,Minnesota Vikings,,Chicago Bears,Minnesota Vikings,Chicago Bears
+15,Mon,2024-12-16,8:30PM,Atlanta Falcons,@,Las Vegas Raiders,Las Vegas Raiders,Atlanta Falcons
+16,Thu,2024-12-19,8:15PM,Los Angeles Chargers,,Denver Broncos,Los Angeles Chargers,Denver Broncos
+16,Sat,2024-12-21,1:00PM,Kansas City Chiefs,,Houston Texans,Kansas City Chiefs,Houston Texans
+16,Sat,2024-12-21,4:30PM,Baltimore Ravens,,Pittsburgh Steelers,Baltimore Ravens,Pittsburgh Steelers
+16,Sun,2024-12-22,1:00PM,Atlanta Falcons,,New York Giants,Atlanta Falcons,New York Giants
+16,Sun,2024-12-22,1:00PM,Carolina Panthers,,Arizona Cardinals,Carolina Panthers,Arizona Cardinals
+16,Sun,2024-12-22,1:00PM,Detroit Lions,@,Chicago Bears,Chicago Bears,Detroit Lions
+16,Sun,2024-12-22,1:00PM,Cincinnati Bengals,,Cleveland Browns,Cincinnati Bengals,Cleveland Browns
+16,Sun,2024-12-22,1:00PM,Indianapolis Colts,,Tennessee Titans,Indianapolis Colts,Tennessee Titans
+16,Sun,2024-12-22,1:00PM,Los Angeles Rams,@,New York Jets,New York Jets,Los Angeles Rams
+16,Sun,2024-12-22,1:00PM,Washington Commanders,,Philadelphia Eagles,Washington Commanders,Philadelphia Eagles
+16,Sun,2024-12-22,4:05PM,Minnesota Vikings,@,Seattle Seahawks,Seattle Seahawks,Minnesota Vikings
+16,Sun,2024-12-22,4:25PM,Buffalo Bills,,New England Patriots,Buffalo Bills,New England Patriots
+16,Sun,2024-12-22,4:25PM,Las Vegas Raiders,,Jacksonville Jaguars,Las Vegas Raiders,Jacksonville Jaguars
+16,Sun,2024-12-22,4:25PM,Miami Dolphins,,San Francisco 49ers,Miami Dolphins,San Francisco 49ers
+16,Sun,2024-12-22,8:20PM,Dallas Cowboys,,Tampa Bay Buccaneers,Dallas Cowboys,Tampa Bay Buccaneers
+16,Mon,2024-12-23,8:15PM,Green Bay Packers,,New Orleans Saints,Green Bay Packers,New Orleans Saints
+17,Wed,2024-12-25,1:00PM,Kansas City Chiefs,@,Pittsburgh Steelers,Pittsburgh Steelers,Kansas City Chiefs
+17,Wed,2024-12-25,4:30PM,Baltimore Ravens,@,Houston Texans,Houston Texans,Baltimore Ravens
+17,Thu,2024-12-26,8:15PM,Seattle Seahawks,@,Chicago Bears,Chicago Bears,Seattle Seahawks
+17,Sat,2024-12-28,1:00PM,Los Angeles Chargers,@,New England Patriots,New England Patriots,Los Angeles Chargers
+17,Sat,2024-12-28,4:30PM,Cincinnati Bengals,,Denver Broncos,Cincinnati Bengals,Denver Broncos
+17,Sat,2024-12-28,8:10PM,Los Angeles Rams,,Arizona Cardinals,Los Angeles Rams,Arizona Cardinals
+17,Sun,2024-12-29,1:00PM,Buffalo Bills,,New York Jets,Buffalo Bills,New York Jets
+17,Sun,2024-12-29,1:00PM,Tampa Bay Buccaneers,,Carolina Panthers,Tampa Bay Buccaneers,Carolina Panthers
+17,Sun,2024-12-29,1:00PM,New York Giants,,Indianapolis Colts,New York Giants,Indianapolis Colts
+17,Sun,2024-12-29,1:00PM,Philadelphia Eagles,,Dallas Cowboys,Philadelphia Eagles,Dallas Cowboys
+17,Sun,2024-12-29,1:00PM,Jacksonville Jaguars,,Tennessee Titans,Jacksonville Jaguars,Tennessee Titans
+17,Sun,2024-12-29,1:00PM,Las Vegas Raiders,@,New Orleans Saints,New Orleans Saints,Las Vegas Raiders
+17,Sun,2024-12-29,4:05PM,Miami Dolphins,@,Cleveland Browns,Cleveland Browns,Miami Dolphins
+17,Sun,2024-12-29,4:25PM,Minnesota Vikings,,Green Bay Packers,Minnesota Vikings,Green Bay Packers
+17,Sun,2024-12-29,8:20PM,Washington Commanders,,Atlanta Falcons,Washington Commanders,Atlanta Falcons
+17,Mon,2024-12-30,8:15PM,Detroit Lions,@,San Francisco 49ers,San Francisco 49ers,Detroit Lions
+18,Sat,2025-01-04,4:30PM,Baltimore Ravens,,Cleveland Browns,Baltimore Ravens,Cleveland Browns
+18,Sat,2025-01-04,8:00PM,Cincinnati Bengals,@,Pittsburgh Steelers,Pittsburgh Steelers,Cincinnati Bengals
+18,Sun,2025-01-05,1:00PM,Carolina Panthers,@,Atlanta Falcons,Atlanta Falcons,Carolina Panthers
+18,Sun,2025-01-05,1:00PM,New England Patriots,,Buffalo Bills,New England Patriots,Buffalo Bills
+18,Sun,2025-01-05,1:00PM,Chicago Bears,@,Green Bay Packers,Green Bay Packers,Chicago Bears
+18,Sun,2025-01-05,1:00PM,Indianapolis Colts,,Jacksonville Jaguars,Indianapolis Colts,Jacksonville Jaguars
+18,Sun,2025-01-05,1:00PM,Washington Commanders,@,Dallas Cowboys,Dallas Cowboys,Washington Commanders
+18,Sun,2025-01-05,1:00PM,Houston Texans,@,Tennessee Titans,Tennessee Titans,Houston Texans
+18,Sun,2025-01-05,1:00PM,Tampa Bay Buccaneers,,New Orleans Saints,Tampa Bay Buccaneers,New Orleans Saints
+18,Sun,2025-01-05,1:00PM,Philadelphia Eagles,,New York Giants,Philadelphia Eagles,New York Giants
+18,Sun,2025-01-05,4:25PM,Arizona Cardinals,,San Francisco 49ers,Arizona Cardinals,San Francisco 49ers
+18,Sun,2025-01-05,4:25PM,Denver Broncos,,Kansas City Chiefs,Denver Broncos,Kansas City Chiefs
+18,Sun,2025-01-05,4:25PM,New York Jets,,Miami Dolphins,New York Jets,Miami Dolphins
+18,Sun,2025-01-05,4:25PM,Los Angeles Chargers,@,Las Vegas Raiders,Las Vegas Raiders,Los Angeles Chargers
+18,Sun,2025-01-05,4:25PM,Seattle Seahawks,@,Los Angeles Rams,Los Angeles Rams,Seattle Seahawks
+18,Sun,2025-01-05,8:20PM,Detroit Lions,,Minnesota Vikings,Detroit Lions,Minnesota Vikings

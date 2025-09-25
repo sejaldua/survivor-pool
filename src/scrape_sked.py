@@ -1,3 +1,4 @@
+# Copied from root for package organization
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -34,4 +35,4 @@ sked_df['Home'] = sked_df.apply(lambda x: x['Team2'] if x['H/A'] == '@' else x['
 sked_df['Away'] = sked_df.apply(lambda x: x['Team1'] if x['H/A'] == '@' else x['Team2'], axis=1)
 sked_df = sked_df[sked_df['Week'].isin(map(str, range(1, 19)))]
 sked_df['Date'] = pd.to_datetime(sked_df['Date'])
-sked_df.to_csv('nfl_schedule_2024.csv', index=False)
+sked_df.to_csv('data/nfl_schedule_2024.csv', index=False)

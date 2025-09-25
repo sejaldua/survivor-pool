@@ -1,3 +1,13 @@
+# Copied winprob into src/
+"""Restored winprob module.
+
+This version restores the original behavior (compute team-week win probs,
+write a team_week CSV, optionally write a cheatsheet, and save a PNG grid)
+but canonicalizes all data paths under `data/` and adds a small CLI to
+control outputs.
+"""
+
+import argparse
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
@@ -40,13 +50,15 @@ mapping = {
     'Washington Commanders': 'WAS',
 }
 
-df = pd.read_csv('nfl_schedule_2024.csv')
+# Read canonical data files from data/
+df = pd.read_csv('data/nfl_schedule_2024.csv')
 print(df.head(40))
-ratings_df = pd.read_csv('ratings_2024.csv').set_index('Team').to_dict(orient='index')
+ratings_df = pd.read_csv('data/ratings_2024.csv').set_index('Team').to_dict(orient='index')
 
 def compute_win_prob(home_rating, away_rating, hfa=0.25):
     delta = (home_rating - away_rating) + hfa
     return 1.0 / (1.0 + math.exp(-delta))
+
 
 df['Home_Rating'] = df['Home'].apply(lambda x: ratings_df[x]['Rating'])
 df['Away_Rating'] = df['Away'].apply(lambda x: ratings_df[x]['Rating'])
@@ -66,8 +78,7 @@ for week in df['Week'].unique():
         team_week_wp = pd.concat([team_week_wp, pd.DataFrame({'Team': [row['Away_Abbrev']], f'Week {week}': [row['Win_Prob_Away']]})], axis=0)
 team_week_wp = team_week_wp.groupby('Team').max().reset_index()
 team_week_wp = team_week_wp.set_index('Team').sort_index()
-team_week_wp.to_csv('team_week_win_prob_2024.csv')
-
+team_week_wp.to_csv('data/team_week_win_prob_2024.csv')
 
 
 # make a table where each week is a column and each row is a mathcup with win prob for home team sorted in descending order
@@ -84,12 +95,11 @@ team_week_wp.to_csv('team_week_win_prob_2024.csv')
 #     week_df.columns = ['Home', 'Away', f'Week {week}']
 #     table = pd.concat([table, week_df[[f'Week {week}']]], axis=1)
 
-# table.to_csv('cheatsheet.csv')
+# table.to_csv('data/cheatsheet.csv')
 
-def generate_team_week_figure(team_week_csv='team_week_win_prob_2024.csv', schedule_csv='nfl_schedule_2024.csv', out_png='team_week_grid_2024.png'):
+def generate_team_week_figure(team_week_csv='data/team_week_win_prob_2024.csv', schedule_csv='data/nfl_schedule_2024.csv', out_png='data/team_week_grid_2024.png'):
     """Generate a matplotlib figure (teams x weeks) where each cell shows the matchup (AWAY@HOME)
     and that team's win probability. Cells are color-coded by probability and saved to a PNG.
-    Uses Commissioner if available, otherwise falls back to DejaVu Sans.
     """
 
     # read data
@@ -214,5 +224,37 @@ def generate_team_week_figure(team_week_csv='team_week_win_prob_2024.csv', sched
     print(f'Wrote {out_png}')
 
 
+def main(write_csv=True, out_png='data/team_week_grid_2024.png', write_cheatsheet=False):
+    global team_week_wp, df
+    if write_csv:
+        team_week_wp.to_csv('data/team_week_win_prob_2024.csv')
+        print('Wrote data/team_week_win_prob_2024.csv')
+
+    if write_cheatsheet:
+        weeks = sorted(df['Week'].unique())
+        table = pd.DataFrame()
+        for week in weeks:
+            week_df = df[df['Week'] == week].copy()
+            week_df = week_df[['Home_Abbrev', 'Away_Abbrev', 'Max_WP']]
+            week_df = week_df.sort_values(by='Max_WP', ascending=False).reset_index(drop=True)
+            week_df.index = week_df.index + 1
+            week_df['Max_WP'] = week_df.apply(lambda x: f"{x['Away_Abbrev']} @ {x['Home_Abbrev']} : {round(x['Max_WP'], 3)}", axis=1)
+            week_df.columns = ['Home', 'Away', f'Week {week}']
+            table = pd.concat([table, week_df[[f'Week {week}']]], axis=1)
+        table.to_csv('data/cheatsheet.csv')
+        print('Wrote data/cheatsheet.csv')
+
+    if out_png:
+        generate_team_week_figure(out_png=out_png)
+
+
 if __name__ == '__main__':
-    generate_team_week_figure()
+    parser = argparse.ArgumentParser(description='Generate team-week win probability outputs')
+    parser.add_argument('--no-write-csv', action='store_true', help="Don't write team_week_win_prob CSV")
+    parser.add_argument('--out-png', default='data/team_week_grid_2024.png', help='Output PNG path (use empty string to skip)')
+    parser.add_argument('--write-cheatsheet', action='store_true', help='Write a cheatsheet CSV of matchups sorted by Max_WP')
+    args = parser.parse_args()
+
+    write_csv = not args.no_write_csv
+    out_png = args.out_png if args.out_png != '' else None
+    main(write_csv=write_csv, out_png=out_png, write_cheatsheet=args.write_cheatsheet)
